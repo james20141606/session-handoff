@@ -1,17 +1,17 @@
 {
   "name": "session-handoff-marketplace",
   "description": "Marketplace for session-handoff skill",
+  "owner": {
+    "name": "james20141606",
+    "email": "james20141606@users.noreply.github.com"
+  },
   "plugins": [
     {
       "name": "session-handoff",
       "description": "Generate structured handoff documents for seamless AI session transitions",
       "version": "1.0.0",
-      "skills": [
-        {
-          "name": "session-handoff",
-          "path": "SKILL.md"
-        }
-      ]
+      "source": ".",
+      "skills": ["."]
     }
   ]
 }
